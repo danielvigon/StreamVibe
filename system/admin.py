@@ -1,5 +1,5 @@
 from django.contrib import admin
-from sistema import models
+from system import models
 
 # Register your models here.
 

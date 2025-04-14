@@ -10,7 +10,7 @@ class User (models.Model):
     phone_number = models.CharField(max_length = 12)
     email = models.EmailField()
     address = models.CharField(max_length = 100)
-    register_date = models.DateTimeField(default = timezone.now)
+    register_date = models.DateField(default = timezone.now)
     active = models.BooleanField(default = True)
 
     def __str__(self):
