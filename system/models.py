@@ -10,7 +10,7 @@ class User (models.Model):
     phone_number = models.CharField(max_length = 12)
     email = models.EmailField()
     address = models.CharField(max_length = 100)
-    image = models.ImageField(blank = True, upload_to = 'image/Y%/%m')
+    image = models.ImageField(blank = True, upload_to = 'image/%Y/%m')
     register_date = models.DateField(default = timezone.now)
     active = models.BooleanField(default = True)
 
