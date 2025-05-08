@@ -1,4 +1,5 @@
 from django.shortcuts import redirect, render
+from system.models import Movie
 from movie.forms import MovieForm
 
 # Create your views here.
@@ -8,7 +9,14 @@ def register_movie(request):
         form = MovieForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            return redirect('/list-movies/')
+            return redirect('/list')
     else:
         form = MovieForm()
-    return render(request, 'register.html', {'form': form})
+    return render(request, 'register-movie.html', {'form': form})
+
+def list_movies(request):
+    movies = Movie.objects.all()
+    context = {
+        'movies':movies,
+    }
+    return render(request, 'list-movies.html', context)
