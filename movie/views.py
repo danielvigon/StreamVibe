@@ -12,11 +12,11 @@ def register_movie(request):
             return redirect('/list')
     else:
         form = MovieForm()
-    return render(request, 'register-movie.html', {'form': form})
+    return render(request, 'movie-register.html', {'form': form})
 
 def list_movies(request):
     movies = Movie.objects.all()
     context = {
         'movies':movies,
     }
-    return render(request, 'list-movies.html', context)
+    return render(request, 'movies-list.html', context)
