@@ -4,6 +4,6 @@ from system import views
 # The list urlpatterns brings the
 
 urlpatterns = [
-    path('', views.index),
+    path('', views.index, name='index'),
     path('users-list/', views.list_users, name='list_users'),
 ]
