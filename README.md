@@ -29,7 +29,7 @@
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/danielvigon/StreamVibe.git
+    git clone https://github.com/danielvigon/stream-vibe.git
     ```
 
 2. Acesse o diretório do projeto:
@@ -87,5 +87,6 @@ Se você já tiver o projeto rodando, pode adicionar algumas imagens ou uma pequ
 - [ ] Criar um algoritmo de recomendações baseado nos filmes assistidos.
 - [ ] Adicionar suporte para múltiplos tipos de usuários (ex: administradores e usuários comuns).
 - [ ] Implementar integração com APIs externas de filmes (como IMDb ou The Movie Database).
+
 
 
