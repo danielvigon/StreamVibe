@@ -34,7 +34,7 @@
 
 2. Acesse o diretório do projeto:
     ```bash
-    cd StreamVibe
+    cd stream-vibe
     ```
 
 3. Crie e ative um ambiente virtual (recomendado):
