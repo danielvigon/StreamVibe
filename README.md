@@ -1,7 +1,12 @@
-# StreamVibe - Plataforma que revoluciona como você avalia filmes e séries
+
+<div align="center">
+
+  # StreamVibe - A plataforma que revoluciona como você avalia filmes e séries
+
+</div>
 
 ## Descrição
-**StreamVibe** é um sistema simples voltado para o mundo cinéfilo e desenvolvido com **Python** e **Django**, permitindo que os usuários possam adicionar filmes e séries ao catálogo e avaliar de acordo com as suas experiências. O objetivo do projeto é proporcionar uma maneira intuitiva e rápida de organizar filmes e usuários para futuras interações e propor recompensas exclusivas.
+**StreamVibe** é um sistema simples voltado para o mundo cinéfilo e desenvolvido com **Python** e **Django**, permitindo que os usuários possam adicionar filmes e séries ao catálogo e avaliar de acordo com as suas experiências. O objetivo do projeto é proporcionar uma maneira intuitiva e rápida de organizar filmes, séries e usuários para futuras interações e propor recompensas exclusivas.
 
 <p align ="center">
 <img src="./.github/preview.png" alt="captura de tela referente ao projeto StreamVibe"/>
@@ -9,10 +14,10 @@
 
 ## Funcionalidades
 
-- **Cadastro e Avaliação**: Adicione filmes e séries com título, gênero, ano de lançamento e sinopse, podendo também avaliar cada um deles.
+- **Cadastro e Avaliação**: Adicione filmes e séries com título, gênero, ano de lançamento e sinopse e avalie cada um deles.
 - **Busca e Filtro**: Encontre filmes e séries por título, gênero ou ano de lançamento.
 - **Interação com o Catálogo**: Interaja com o catálogo, podendo marcar favoritos ou fazer recomendações (em desenvolvimento).
-- **Recompensa por Interação**: Receba criptomoedas ao avaliar filmes e séries (em desenvolvimento).
+- **Recompensa por Interação**: Receba criptomoedas exclusivas ao avaliar filmes e séries, podendo trocar por cursos de tecnologia (em desenvolvimento).
 
 ## Tecnologias Utilizadas
 
@@ -82,4 +87,5 @@ Se você já tiver o projeto rodando, pode adicionar algumas imagens ou uma pequ
 - [ ] Criar um algoritmo de recomendações baseado nos filmes assistidos.
 - [ ] Adicionar suporte para múltiplos tipos de usuários (ex: administradores e usuários comuns).
 - [ ] Implementar integração com APIs externas de filmes (como IMDb ou The Movie Database).
+
 
