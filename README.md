@@ -1,7 +1,7 @@
-# StreamVibe - Cadastro de Filmes e Usuários
+# StreamVibe - Plataforma que revoluciona como você avalia filmes e séries
 
 ## Descrição
-**StreamVibe** é um sistema simples de cadastro de filmes e usuários, desenvolvido com **Python** e **Django**, permitindo que os usuários possam adicionar filmes ao catálogo e registrar suas informações. O objetivo do projeto é proporcionar uma maneira intuitiva e rápida de organizar filmes e usuários para futuras interações.
+**StreamVibe** é um sistema simples voltado para o mundo cinéfilo e desenvolvido com **Python** e **Django**, permitindo que os usuários possam adicionar filmes e séries ao catálogo e avaliar de acordo com as suas experiências. O objetivo do projeto é proporcionar uma maneira intuitiva e rápida de organizar filmes e usuários para futuras interações e propor recompensas exclusivas.
 
 <p align ="center">
 <img src="./.github/preview.png" alt="captura de tela referente ao projeto StreamVibe"/>
@@ -9,24 +9,22 @@
 
 ## Funcionalidades
 
-- **Cadastro de Filmes**: Adicione filmes com título, gênero, ano de lançamento, sinopse e outros detalhes relevantes.
-- **Cadastro de Usuários**: Criação de contas de usuário com funcionalidades de login e gerenciamento de perfil.
-- **Busca e Filtro de Filmes**: Encontre filmes por título, gênero ou ano de lançamento.
-- **Interação com o Catálogo**: Permite aos usuários interagir com o catálogo de filmes, podendo marcar favoritos ou fazer recomendações.
+- **Cadastro e Avaliação**: Adicione filmes e séries com título, gênero, ano de lançamento e sinopse, podendo também avaliar cada um deles.
+- **Busca e Filtro**: Encontre filmes e séries por título, gênero ou ano de lançamento.
+- **Interação com o Catálogo**: Interaja com o catálogo, podendo marcar favoritos ou fazer recomendações (em desenvolvimento).
+- **Recompensa por Interação**: Receba criptomoedas ao avaliar filmes e séries (em desenvolvimento).
 
 ## Tecnologias Utilizadas
 
-- **Python 3.x**
-- **Django 4.x**
-- **SQLite** (ou outro banco de dados configurável)
-- **Bootstrap 4** (para estilização)
-- **Django Rest Framework** (se for incluir APIs para front-end ou mobile)
-
+- **Python**
+- **Django**
+- **SQLite**
+  
 ## Como Rodar o Projeto Localmente
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/SEU-USER/StreamVibe.git
+    git clone https://github.com/danielvigon/StreamVibe.git
     ```
 
 2. Acesse o diretório do projeto:
@@ -42,7 +40,7 @@
 
 4. Instale as dependências:
     ```bash
-    pip install -r requirements.txt
+    pip install -r requirements.txt  # Se estiver disponível
     ```
 
 5. Execute as migrações do banco de dados:
@@ -80,7 +78,8 @@ Se você já tiver o projeto rodando, pode adicionar algumas imagens ou uma pequ
 
 ## Roadmap
 
-- [ ] Implementar funcionalidades de comentários e avaliações de filmes.
-- [ ] Criar um sistema de recomendações baseado nos filmes assistidos.
+- [ ] Implementar funcionalidades de comentários.
+- [ ] Criar um algoritmo de recomendações baseado nos filmes assistidos.
 - [ ] Adicionar suporte para múltiplos tipos de usuários (ex: administradores e usuários comuns).
 - [ ] Implementar integração com APIs externas de filmes (como IMDb ou The Movie Database).
+
